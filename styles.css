@@ -25,6 +25,19 @@ body {
 
 }
 
+.contacts-container {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+
+}
+
 a {text-decoration: none;}
 
 .navbar {
@@ -41,11 +54,6 @@ a {text-decoration: none;}
     opacity: 0.7;
     z-index: 100;
 }
-
-/* .navbar ul {
-    margin: auto;
-}
- */
 
 .navbar li {
     padding: 5px 10px;
