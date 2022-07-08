@@ -301,3 +301,25 @@
     border-radius: 150px;
     opacity: 0.5;
 }
+
+#containid {
+    animation-name: containanim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes containanim {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1.1;
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+}
