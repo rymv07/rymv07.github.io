@@ -3,6 +3,7 @@
 @import "style_ip.css";
 @import "style_pp.css";
 @import "style_ap.css";
+@import "styles_res.css";
 
 body {
     font-family: sans-serif;

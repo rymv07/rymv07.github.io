@@ -1,48 +1,4 @@
 
-@media only screen and (max-width: 600px) {
-    #namehd {
-        position: fixed;
-        top: 50px;
-        left: 0px;
-        float: left;
-        width: 19.0em;
-        background-color: #e27a67;
-        padding: 5px;
-        border-radius: 0 36px 360px 0;
-    }
-
-    h1 a {
-        color: #ffffff;
-        float: left;
-        top: 0;
-        margin-left: 170px;
-        padding-bottom: 15px;
-        font-size: 0.8em;
-        font-size-adjust: initial;
-    }
-}
-
-.bulletlist {
-    padding-left: 26px;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.bullet {
-    line-height: 0.8px;
-    max-width: 800px;
-    margin: 2em auto;
-    text-align: left;
-}
-
-#noteps {
-    max-width: 800px;
-    font-size: 0.9em;
-    opacity: 0.7;
-    text-align: center;
-}
-
 .side_a {
     position: fixed;
     top: 0;
@@ -76,6 +32,7 @@
     width: 30px;
     height: 30px;    
 }
+
 #linkedin{
     background-image: url("res/linkedin_logo.png");
     background-size: 100%;
@@ -168,7 +125,7 @@
     }
 
     80% {
-        width: 35 0px;
+        width: 350px;
     }
 
     100% {
