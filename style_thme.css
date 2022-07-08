@@ -224,22 +224,18 @@
     display: none;
     position: fixed;
     outline: none;
-    bottom: 50px;
-    right: 15%;
+    bottom: 80px;
+    right: 100px;
     width: 40px;
     height: 40px;
     border: none;
     background-color: rgb(39, 36, 36);
     border-radius: 150px;
     opacity: 0.5;
-    z-index: 70;
+    z-index: 80;
 }
 
-#myBtn:hover {
-    background-color: #555;
-  }
-
-.arrow {
+.arrow-up {
     position: relative;
     top: 4px;
     border: solid #ffffff;
@@ -247,13 +243,21 @@
     display: inline-block;
     padding: 5px;
     opacity: 0.5;
-    z-index: 80;
-}
-
-.arrow-up {
+    z-index: 81;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }
+
+
+#myBtn:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #302e2e;
+    background-color: #474444;
+    opacity: 0.5;
+
+  }
+
 
 .footercontact {
     position: fixed;
