@@ -3,7 +3,6 @@
 @import "style_ip.css";
 @import "style_pp.css";
 @import "style_ap.css";
-@import "styles_res.css";
 
 body {
     font-family: sans-serif;
@@ -26,33 +25,16 @@ body {
 
 }
 
-.contacts-container {
-    position: absolute;
-    top: 100px;
-    bottom: 100px;
-    left: 0;
-    right: 0;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
-
-}
-
 a {text-decoration: none;}
 
 .navbar {
     position: fixed;
     float: right;
     top: 1%;
-    right: 0;
+    right: 10px;
     margin: auto;
     height: 50px;
     width: 300px;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #302e2e;
-    opacity: 0.7;
     z-index: 100;
 }
 
@@ -68,28 +50,25 @@ a {text-decoration: none;}
 .navbar li:hover{ 
     font-style: oblique;
     font-weight: bold;
-    border-style: dotted;
+    border-style: solid;
     border-color: #302e2e;
-    opacity: 1;
-
+    border-width: 1px;
 }
 
 .footer {
     position: fixed;
-    display: inline;
-    float: left;
-    bottom: 1%;
+    margin: 0;
     left: 0;
+    right: 0; 
+    bottom: 0;
+    display: inline;
     padding: 5px;
-    margin: auto;
     height: 22px;
-    width: 300px;
+    width: 100%;
     background-color: #ffffff;
     opacity: 0.7;
     text-align: center;
     color: #3d3a36;
-    border-style: solid;
-    border-color: #302e2e;
     z-index: -1;
 }
 
